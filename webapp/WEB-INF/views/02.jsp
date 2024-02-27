@@ -60,12 +60,14 @@
 	
 	<!-- !true -->
 	\${!(5>2)} --> ${ !(5>2) }<br>
+	<br>
 	
-	
-	
-	
-	
-	
+	<h4>null검사</h4>
+	\${str} --> ${str}<br>
+	\${str == null} --> ${str == null} <br> 
+	\${empty str} --> ${empty str} <br> 
+	\${empty reqVal} --> ${empty reqVal} <br> 
+	\${reqVal} --> ${reqVal} <br> 
 	
 	
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

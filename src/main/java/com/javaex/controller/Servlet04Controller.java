@@ -17,7 +17,7 @@ public class Servlet04Controller extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		UserVo userVo = new UserVo(1, "박명수", "park", "1234", "male");
+		UserVo userVo = new UserVo(1, "박명수", "park@gmail.com", "1234", "male");
 		request.setAttribute("userVo", userVo);
 		
 		

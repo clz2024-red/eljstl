@@ -20,7 +20,7 @@ public class Servlet05Controller extends HttpServlet {
 
 		//문제 5번 6번 예제
 		
-		UserVo userVo = new UserVo(1, "박명수", "park", "1234", "male");
+		UserVo userVo = new UserVo(1, "박명수", "park@gmai.com", "1234", "male");
 		
 		HttpSession session = request.getSession(true);
 		session.setAttribute("authUser", userVo);
